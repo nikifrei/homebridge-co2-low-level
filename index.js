@@ -50,7 +50,16 @@ function Co2SensorAccessory(log, config) {
   this.job.start()
 }
 
+
 Co2SensorAccessory.prototype.getServices = function() {
+
+  setTimeout(function() {
+    // Code, der erst nach 2 Sekunden ausgeführt wird
+    alert('Hello World!');
+  }, 2000);
+
+
+
   this.informationService
     .setCharacteristic(Characteristic.Manufacturer, "Co2Sensor Manufacturer")
     .setCharacteristic(Characteristic.Model, 'Co2Sensor Model')
