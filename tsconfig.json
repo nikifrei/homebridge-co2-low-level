@@ -1,8 +1,9 @@
 {
   "accessories": [
       {
-          "accessory": "Co2LowLevel",
+          "accessory": "CO2LowLevel",
           "name": "Co2 Low Level",
+          "name2": "Co2 Low Level 2",  //
           "uart_path": "/dev/ttyS0",
           "schedule": "*/1 * * * *",
           "warning_level": 800
