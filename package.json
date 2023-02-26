@@ -1,7 +1,7 @@
 {
-  "name": "homebridge-co2-sensor",
-  "displayName": "Homebridge CO2 Sensor",
-  "version": "0.2.2",
+  "name": "homebridge-co2-low-level",
+  "displayName": "Homebridge CO2 Low Level",
+  "version": "0.2.3",
   "main": "index.js",
   "scripts": {
     "lint": "echo \"Warning: lint is not used\" && exit 0",
@@ -26,9 +26,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mizuka-ninomae/homebridge-co2-sensor.git"
+    "url": "git+https://github.com/nikifrei/homebridge-co2-low-level.git"
   },
-  "author": "mizuka-ninomae",
+  "author": "nikifrei",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mizuka-ninomae/homebridge-co2-sensor/issues"

@@ -1,11 +1,11 @@
 {
   "accessories": [
       {
-          "accessory": "Co2Sensor",
-          "name": "Co2 Sensor",
-          "uart_path": "/dev/ttyXXX0",
-          "schedule": "*/5 * * * *",
-          "warning_level": 1500
+          "accessory": "Co2LowLevel",
+          "name": "Co2 Low Level",
+          "uart_path": "/dev/ttyS0",
+          "schedule": "*/1 * * * *",
+          "warning_level": 800
       },
 ...
 }
