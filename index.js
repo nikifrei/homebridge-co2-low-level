@@ -64,5 +64,5 @@ Co2SensorAccessory.prototype.getServices = function() {
     .setCharacteristic(Characteristic.Model, 'Co2Sensor Model')
     .setCharacteristic(Characteristic.SerialNumber, 'Co2Sensor Serial Number');
 
-  return [this.informationService, this.CarbonDioxideSensorService];
+  return [this.informationService, this.CarbonDioxideSensorService, this.SmokeSensorService];
 }
