@@ -1,7 +1,7 @@
 {
   "accessories": [
       {
-          "accessory": "CO2LowLevel",
+          "accessory": "CO2Sensor",
           "name": "Co2 Low Level",
           "name2": "Co2 Low Level 2",  //
           "uart_path": "/dev/ttyS0",

@@ -1,6 +1,6 @@
 {
   "name": "homebridge-co2-low-level",
-  "displayName": "Homebridge CO2 Low Level",
+  "displayName": "Homebridge CO2 Sensor",
   "version": "0.2.3",
   "main": "index.js",
   "scripts": {
