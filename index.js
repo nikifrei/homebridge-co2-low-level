@@ -8,6 +8,11 @@ module.exports = function(homebridge){
   homebridge.registerAccessory("homebridge-co2-low-level", "Co2LowLevel", Co2SensorAccessory);
 }
 
+setTimeout(function() {
+  // Code, der erst nach 2 Sekunden ausgeführt wird
+  alert('Hello World!');
+}, 2000);
+
 function Co2SensorAccessory(log, config) {
   this.log           = log;
   this.name          = config["name"];
@@ -41,6 +46,7 @@ function Co2SensorAccessory(log, config) {
     },
     runOnInit: true
   })
+  
   this.job.start()
 }
 
