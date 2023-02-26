@@ -5,7 +5,7 @@ const MH_Z19      = require('mh_z19');
 module.exports = function(homebridge){
   Service         = homebridge.hap.Service;
   Characteristic  = homebridge.hap.Characteristic;
-  homebridge.registerAccessory("homebridge-co2-low-level", "Co2LowLevel", Co2SensorAccessory);
+  homebridge.registerAccessory("homebridge-co2-low-level", "CO2LowLevel", Co2SensorAccessory);
 }
 
 setTimeout(function() {
@@ -53,10 +53,6 @@ function Co2SensorAccessory(log, config) {
 
 Co2SensorAccessory.prototype.getServices = function() {
 
-  setTimeout(function() {
-    // Code, der erst nach 2 Sekunden ausgeführt wird
-    alert('Hello World!');
-  }, 2000);
 
 
 
