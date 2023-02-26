@@ -33,8 +33,8 @@ function Co2SensorAccessory(log, config) {
             .updateCharacteristic(Characteristic.CarbonDioxideDetected, new Error(error));
         }
         else {
-          let co2_high_detected = (this.warning_level_high < co2_level) ? 0 : 1;
-          let co2_low_detected = (this.warning_level_low > co2_level) ? 0 : 1;
+          let co2_high_detected = (this.warning_level_high < co2_level) ? 1 : 0;
+          let co2_low_detected = (this.warning_level_low > co2_level) ? 1 : 0;
           this.log(`>>> [Update] CarbonDioxideLevel => ${co2_level}`);
           this.log(`>>> [Update] CarbonHighLevelDetected => ${co2_high_detected}`);
           this.log(`>>> [Update] CarbonLowLevelDetected => ${co2_low_detected}`);

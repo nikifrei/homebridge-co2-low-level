@@ -6,7 +6,8 @@
           "name2": "Co2 Low Level 2",  //
           "uart_path": "/dev/ttyS0",
           "schedule": "*/1 * * * *",
-          "warning_level": 800
+          "warning_level_high": 1500,
+          "warning_level_low": 800
       },
 ...
 }
